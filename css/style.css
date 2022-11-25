@@ -61,7 +61,7 @@ a,
 
 /* HEADER */
 
-.page-header {
+header {
   width: 1200px;
   height: 80px;
 
@@ -78,10 +78,6 @@ a,
 .page {
   display: flex;
   align-items: center;
-}
-
-.page > ul {
-  /*display: inline-block; */
 }
 
 /* --- LOGO --- */
@@ -117,7 +113,9 @@ a,
 .logo-studio {
   color: #000000;
 }
+
 /* --- site-nav --- */
+
 .site-nav {
   display: flex;
   align-items: center;
@@ -126,9 +124,9 @@ a,
 .site-nav a {
   color: #212121;
 }
+
 .site-nav > li {
   cursor: pointer;
-  /* display: inline-block; */
 }
 
 .site-nav > li:not(:last-child) {
@@ -137,7 +135,6 @@ a,
 
 .link {
   width: 64px;
-  /* display: flex; */
 }
 
 .link:hover,
@@ -162,17 +159,12 @@ a,
   margin-left: auto;
 }
 
-/* .auth-nav > li {
-  display: inline-block;
-}*/
-
 .auth-nav > li:not(:last-child) {
   margin-right: 50px;
 }
 
 .mail {
   width: 135px;
-
   color: #2196f3;
   cursor: pointer;
 }
