@@ -194,11 +194,12 @@ header {
   height: 600px;
 
   background: #2f303a;
-
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero .container {
@@ -225,9 +226,6 @@ header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-
-  margin-top: 200px;
-  margin-bottom: 30px;
 }
 
 .button {
@@ -272,10 +270,9 @@ header {
 
 .sub {
   width: 1200px;
-  height: 98px;
 
-  margin-top: 93px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -334,7 +331,6 @@ header {
   width: 1200px;
   height: 386px;
 
-  margin-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -374,6 +370,8 @@ header {
 
   margin-left: auto;
   margin-right: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team > .container {
@@ -397,7 +395,6 @@ header {
   display: inline-block;
   align-items: center;
 
-  margin-top: 94px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -576,30 +573,43 @@ footer > .container {
 /* --- КНОПКИ В ПОРТФОЛІО --- */
 .box-button {
   width: 575px;
-  height: 54px;
-  margin-top: 94px;
-  margin-bottom: 50px;
+
+  padding-top: 94px;
+  padding-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
 
   display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.container > .title-button {
+  width: 575px;
+  height: 54px;
 }
 
 .button-list {
   height: 26px;
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63px;
+  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-
-  cursor: pointer;
-  display: inline;
-  margin-left: 8px;
 
   border-radius: 4px;
   border-style: solid;
   border-color: transparent;
+
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.button-list:not(:last-child) {
+  margin-right: 8px;
 }
 
 .button-list:hover,
@@ -621,13 +631,12 @@ footer > .container {
   padding-right: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .card-set {
   padding: 0;
   margin: 0;
-
   list-style: none;
 
   display: flex;
