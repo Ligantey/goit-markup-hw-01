@@ -136,10 +136,6 @@ header {
   margin-right: 50px;
 }
 
-.link {
-  width: 64px;
-}
-
 .link:hover,
 .link:focus,
 .link.current {
@@ -167,7 +163,6 @@ header {
 }
 
 .mail {
-  width: 135px;
   color: #2196f3;
   cursor: pointer;
 }
@@ -177,7 +172,6 @@ header {
 }
 
 .phone {
-  width: 122px;
   color: #757575;
 }
 
@@ -258,9 +252,6 @@ header {
 }
 
 .container .sub-container {
-  width: 1200px;
-  height: 98px;
-
   padding-left: 15px;
   padding-right: 15px;
 
@@ -350,7 +341,6 @@ header {
 }
 
 .caption-team {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   font-family: 'Roboto';
@@ -362,19 +352,12 @@ header {
   letter-spacing: 0.03em;
   color: #212121;
 
-  display: inline-block;
-  align-items: center;
-
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .subject-images {
-  width: 1200px;
-  height: 368px;
-
-  margin-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
@@ -419,7 +402,6 @@ header {
 }
 
 .text {
-  width: auto;
   font-family: 'Roboto';
   font-style: normal;
 
@@ -435,7 +417,6 @@ header {
 }
 
 .text-job {
-  width: auto;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -458,9 +439,6 @@ footer {
 }
 
 footer > .container {
-  width: 1200px;
-  height: 252px;
-
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -614,9 +592,6 @@ footer > .container {
 }
 
 .name-card {
-  width: 322px;
-  height: 36px;
-
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -630,9 +605,6 @@ footer > .container {
 }
 
 .name-text {
-  width: 322px;
-  height: 30px;
-
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -640,9 +612,4 @@ footer > .container {
   margin-right: 24px;
   margin-bottom: 20px;
   margin-left: 24px;
-}
-
-img {
-  width: 370px;
-  height: 294px;
 }
