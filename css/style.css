@@ -100,15 +100,13 @@ header {
 }
 
 .logo {
-  width: 145px;
-  height: 31px;
-
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  display: inline-flex;
 }
 
 .logo > div {
@@ -190,9 +188,6 @@ header {
 /* --- main --- */
 
 .hero {
-  width: 1600px;
-  height: 600px;
-
   background: #2f303a;
   padding-left: 15px;
   padding-right: 15px;
@@ -200,20 +195,13 @@ header {
   margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
-}
 
-.hero .container {
-  width: 1200px;
-  height: 600px;
-
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-  text-align: center;
+  /*background: rgba(47, 48, 58, 0.4);
+  background: url();
+  background: #C4C4C4; */ /**/
 }
 
 .hero-title {
-  display: inline-block;
   width: 696px;
   height: 120px;
 
@@ -226,17 +214,15 @@ header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: center;
 }
 
 .button {
-  display: inline-block;
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 430px;
-
   margin-top: 30px;
-  margin-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
 
@@ -269,8 +255,6 @@ header {
 /* --- УВАГА ДО ДЕТАЛЕЙ --- */
 
 .sub {
-  width: 1200px;
-
   padding-top: 94px;
   padding-bottom: 94px;
   margin-left: auto;
@@ -328,11 +312,9 @@ header {
 /* --- Чим ми займаємося --- */
 
 .subject {
-  width: 1200px;
-  height: 386px;
-
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 94px;
 }
 
 .caption {
@@ -364,19 +346,19 @@ header {
 /* --- Наша команда --- */
 
 .team {
-  width: 1600px;
-  height: 648px;
   background: #f5f4fa;
 
   margin-left: auto;
   margin-right: auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .team > .container {
   width: 1200px;
   height: 648px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .caption-team {
@@ -481,25 +463,25 @@ header {
 /* footer */
 
 footer {
-  width: 1600px;
-  height: 252px;
   background: #2f303a;
 
-  padding-left: 15px;
-  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
 
 footer > .container {
-  margin-left: auto;
-  margin-right: auto;
   width: 1200px;
   height: 252px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
-  width: 145px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -508,29 +490,18 @@ footer > .container {
   letter-spacing: 0.03em;
   color: #2196f3;
 
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  display: inline-flex;
 }
 
 .logo-item {
   color: #ffffff;
 }
 
-.logo-item,
-.logo-web {
-  margin-top: 60px;
-}
 .about-company {
-  width: 231px;
   margin-top: 20px;
-  margin-bottom: 60px;
 }
 
 .address-company {
-  width: 231px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -542,7 +513,6 @@ footer > .container {
 }
 
 .mail-company {
-  width: 231px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -557,7 +527,6 @@ footer > .container {
 }
 
 .phone-company {
-  width: 231px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -571,22 +540,19 @@ footer > .container {
 /* css style portfolio.html */
 
 /* --- КНОПКИ В ПОРТФОЛІО --- */
-.box-button {
-  width: 575px;
-
+.title-button {
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 94px;
+}
+
+.box-button {
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
 
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-}
-
-.container > .title-button {
-  width: 575px;
-  height: 54px;
 }
 
 .button-list {
@@ -618,26 +584,12 @@ footer > .container {
   color: #ffffff;
 }
 
-/* --- picture --- */
-
-.picture {
-  width: 1200px;
-  margin: auto;
-  outline: 1px #eeeeee;
-}
-
-.picture .container {
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 94px;
-}
-
 .card-set {
   padding: 0;
   margin: 0;
   list-style: none;
+  margin: auto;
+  outline: 1px #eeeeee;
 
   display: flex;
   flex-wrap: wrap;
@@ -674,14 +626,14 @@ footer > .container {
 }
 
 .name-card {
+  width: 322px;
+  height: 36px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-
-  width: 322px;
-  height: 36px;
 
   margin-top: 20px;
   margin-right: 24px;
