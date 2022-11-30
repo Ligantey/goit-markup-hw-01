@@ -70,17 +70,13 @@ a,
 /* HEADER */
 
 header {
-  width: 1600px;
-  height: 80px;
   margin: auto;
-
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
 }
 
 .container > .header-container {
   width: 1200px;
-  height: 80px;
   margin: 0;
   padding: 0;
 }
@@ -318,8 +314,6 @@ header {
 }
 
 .caption {
-  width: 1200px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -329,7 +323,6 @@ header {
   letter-spacing: 0.03em;
 
   color: #212121;
-
   margin-bottom: 50px;
 }
 
@@ -347,18 +340,13 @@ header {
 
 .team {
   background: #f5f4fa;
-
   margin-left: auto;
   margin-right: auto;
 }
 
 .team > .container {
-  width: 1200px;
-  height: 648px;
   padding-top: 94px;
   padding-bottom: 94px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .caption-team {
