@@ -304,8 +304,6 @@ header {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-
-  outline: 1px solid salmon;
 }
 
 .subtitle {
@@ -518,8 +516,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  outline: 1px solid purple;
 }
 
 .client-item:not(:last-child) {
@@ -558,12 +554,13 @@ header {
   outline: 1px solid green;
 }
 
-/*.a:hover {
+.a:hover > .client-list {
   color: #2196f3;
 }
-.svg {
+
+.svg > .client-list {
   fill: currentColor;
-}*/
+}
 
 /* --- footer --- */
 
@@ -678,6 +675,16 @@ footer > .container {
 .studio-soc-items:hover > footer {
   fill: FFFFFF;
 }
+
+
+.a:hover > footer {
+  color: #2196f3;
+}
+
+.svg > footer {
+  fill: currentColor;
+}
+
 /* css style portfolio.html */
 
 /* --- КНОПКИ В ПОРТФОЛІО --- */
