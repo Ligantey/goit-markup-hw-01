@@ -666,23 +666,15 @@ footer > .container {
   margin-bottom: 20px;
 }
 .studio-soc-items > footer {
-  fill: FFFFFF;
+  fill: #ffffff;
 }
 
 .studio-soc-link:hover > footer {
   background: #2196f3;
 }
-.studio-soc-items:hover > footer {
-  fill: FFFFFF;
-}
 
-
-.a:hover > footer {
-  color: #2196f3;
-}
-
-.svg > footer {
-  fill: currentColor;
+.studio-soc-icons {
+  fill: #ffffff;
 }
 
 /* css style portfolio.html */
