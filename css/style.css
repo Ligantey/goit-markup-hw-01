@@ -562,16 +562,17 @@ justify-content: baseline;
   fill: #AFB1B8;
 }
 
-.client-logo {
-  fill: currentColor;
+.client-logo .logo-three {
+  fill: #AFB1B8;
 }
 
-.client-item:hover,
-.client-link:hover {
+.client-item:hover {
   border: 1px solid #2196f3;
+}
+
+.client-logo:hover {
   fill: #2196F3;
 }
-
 /* --- footer --- */
 
 footer {
