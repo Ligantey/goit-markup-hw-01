@@ -666,7 +666,8 @@ footer > .container {
 
  .studio-soc-link > footer {
   background: rgba(255, 255, 255, 0.1);
-  fill: currentColor;
+  fill: #FFFFFF;
+
 }
 
 .studio-soc-link:hover > footer {
