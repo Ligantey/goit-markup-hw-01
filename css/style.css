@@ -664,19 +664,18 @@ footer > .container {
   margin-bottom: 20px;
 }
 
- .studio-soc-link > footer {
-  background-сcolor: rgba(255, 255, 255, 0.1);
+ footer > .studio-soc-link {
+  background: rgba(255, 255, 255, 0.1);
   fill: #FFFFFF;
-
 }
 
-.studio-soc-link:hover > footer {
+footer > .studio-soc-link:hover {
   background-color: #2196f3;
   fill: #FFFFFF;
 }
 
 
-.studio-soc-icons > footer {
+footer > .studio-soc-icons {
   fill: #ffffff;
 }
 
