@@ -178,7 +178,7 @@ justify-content: baseline;
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   align-items: baseline;
-justify-content: baseline;
+  justify-content: baseline;
 }
 .mail:hover,
 .envelope:hover {
@@ -559,18 +559,15 @@ justify-content: baseline;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  color: #AFB1B8;
+  fill: #AFB1B8;
 }
 
 .client-logo {
   fill: currentColor;
 }
 
-.client-logo .logo-six {
-  fill: currentColor;
-}
 .client-item:hover,
-.client-logo:hover {
+.client-link:hover {
   border: 1px solid #2196f3;
   fill: #2196F3;
 }
