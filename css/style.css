@@ -1,7 +1,7 @@
 /* var вставити вар функції (var(--))*/
 
 :root {
-  --pramyre-text-color: #fffff;
+  --pramyre-text-color: #FFFFFF;
   --title-text-color: #757575;
   --accent-color: #212121;
   --moz-box-sizing: border-box;
@@ -49,8 +49,8 @@ button {
 
 body {
   font-family: var(--main-font);
-  background-color: #ffffff;
-  color: #757575;
+  background-color: var(--pramyre-text-color);
+  color: var(--title-text-color);
 }
 
 .link,
@@ -72,7 +72,7 @@ a,
 
 header {
   margin: auto;
-  background-color: #ffffff;
+  background-color: var(--pramyre-text-color);
   border-bottom: 1px solid #ececec;
 }
 /*
@@ -167,6 +167,10 @@ header {
   display: inline-block;
   margin-right: 10px;
   fill: #757575;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .mail {
@@ -174,7 +178,8 @@ header {
   cursor: pointer;
 }
 
-.mail:hover {
+.mail:hover,
+.envelope:hover {
   color: #757575;
 }
 
@@ -279,6 +284,11 @@ header {
   margin-right: 30px;
 }
 
+.title-icon {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -355,7 +365,7 @@ header {
   margin-right: 30px;
 }
 
-/* --- Наша команда --- */
+/* --- НАША КОМАНДА --- */
 
 .team {
   background: #f5f4fa;
@@ -498,7 +508,8 @@ header {
 
 .studio-soc-link:hover {
   background-color: #2196f3;
-  fill: FFFFFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  fill: #ffffff;
 }
 
 /* --- ПОСТІЙНІ КЛІЄНТИ --- */
@@ -527,6 +538,11 @@ header {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.logo-tree {
+  fill: #AFB1B8;
 }
 
 .client-link {
@@ -545,21 +561,14 @@ header {
   fill: #2196f3;
 }
 
+.client-item:hover,
 .client-item:hover {
   border: 1px solid #2196f3;
-  border-radius: 4px;
+ color: #2196F3;
 }
 
 .client-logo {
-  outline: 1px solid green;
-}
-
-.a:hover > .client-list {
-  color: #2196f3;
-}
-
-.svg > .client-list {
-  fill: currentColor;
+    fill: #AFB1B8;
 }
 
 /* --- footer --- */
