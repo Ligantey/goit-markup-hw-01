@@ -505,7 +505,7 @@ header {
 .studio-soc-link:hover {
   background-color: #2196f3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  background: #FFFFFF;
+  fill: #FFFFFF;
 }
 
 
@@ -538,10 +538,6 @@ header {
   box-sizing: border-box;
 }
 
-.logo-tree {
-  fill: #AFB1B8;
-}
-
 .client-link {
   width: 100%;
   height: 100%;
@@ -559,13 +555,9 @@ header {
   fill: #AFB1B8;
 }
 
-.client-link:hover {
-  fill: #2196f3;
-}
 
 .client-item:hover,
-.client-link:hover,
-.client-logo:hover {
+.client-link:hover {
   border: 1px solid #2196f3;
   fill: #2196F3;
 }
@@ -593,7 +585,7 @@ footer > .container {
 
   display: flex;
   justify-content: baseline;
-  align-items: center;
+  align-items: baseline;
 }
 
 .about-company {
@@ -675,15 +667,19 @@ footer > .container {
 
   margin-bottom: 20px;
 }
-.studio-soc-items > footer {
-  fill: #ffffff;
+
+footer > .studio-soc-link {
+  background: rgba(255, 255, 255, 0.1);
+  fill: currentColor;
 }
 
-.studio-soc-link:hover > footer {
-  background: #2196f3;
+footer > .studio-soc-link:hover {
+  background-color: #2196f3;
+  fill: #FFFFFF;
 }
 
-.studio-soc-icons {
+
+.studio-soc-icons > footer {
   fill: #ffffff;
 }
 
