@@ -562,7 +562,7 @@ justify-content: baseline;
   fill: #AFB1B8;
 }
 
-.client-logo .logo-three {
+.logo-three  {
   fill: #AFB1B8;
 }
 
@@ -570,9 +570,10 @@ justify-content: baseline;
   border: 1px solid #2196f3;
 }
 
-.client-logo:hover {
+.client-link > .use:hover {
   fill: #2196F3;
 }
+
 /* --- footer --- */
 
 footer {
