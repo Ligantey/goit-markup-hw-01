@@ -498,16 +498,15 @@ header {
   background-position: center;
 
   border-radius: 50%;
-
-  outline: 1px solid green;
 }
 
 .studio-soc-link:hover {
   background-color: #2196f3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.studio-soc-icons:hover {
   fill: #FFFFFF;
 }
-
 
 /* --- ПОСТІЙНІ КЛІЄНТИ --- */
 .clients {
@@ -555,14 +554,11 @@ header {
   fill: #AFB1B8;
 }
 
-
 .client-item:hover,
 .client-link:hover {
   border: 1px solid #2196f3;
   fill: #2196F3;
 }
-
-
 
 /* --- footer --- */
 
@@ -656,7 +652,7 @@ footer > .container {
 }
 
 .text-items {
-  ont-family: 'Roboto';
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -668,12 +664,12 @@ footer > .container {
   margin-bottom: 20px;
 }
 
-footer > .studio-soc-link {
+ .studio-soc-link > footer {
   background: rgba(255, 255, 255, 0.1);
   fill: currentColor;
 }
 
-footer > .studio-soc-link:hover {
+.studio-soc-link:hover > footer {
   background-color: #2196f3;
   fill: #FFFFFF;
 }
