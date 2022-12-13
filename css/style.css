@@ -568,6 +568,7 @@ header {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  fill: #AFB1B8;
 }
 
 .client-item:hover,
@@ -581,6 +582,11 @@ header {
 
 .client-logo:hover,
 .client-logo:focus {
+  fill: #2196f3;
+}
+
+.client-link:hover,
+.client-link:focus {
   fill: #2196f3;
 }
 
