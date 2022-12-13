@@ -161,14 +161,15 @@ header {
 }
 
 .auth-nav-icon {
-  display: inline-block;
   margin-right: 10px;
   fill: #2196f3;
 
   background-size: cover;
   background-repeat: no-repeat;
-  align-items: baseline;
-  justify-content: baseline;
+
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
 }
 
 .mail {
@@ -552,6 +553,10 @@ header {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .client-link {
@@ -559,9 +564,7 @@ header {
   width: 100%;
   height: 100%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
