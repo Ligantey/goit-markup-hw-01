@@ -167,9 +167,9 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
+  display: inline-flex;
+  justify-content: baseline;
+  align-items: baseline;
 }
 
 .mail {
