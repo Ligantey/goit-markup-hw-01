@@ -480,7 +480,6 @@ header {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 .studio-soc-items {
@@ -507,7 +506,6 @@ header {
   border-radius: 50%;
   background-color: #FFFFFF;
   fill: #AFB1B8;
- 
 }
 
 .studio-soc-link:hover {
@@ -673,30 +671,17 @@ footer > .container {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-
   margin-bottom: 20px;
 }
 
-
-
 .about-icons > .studio-soc-link {
   background: rgba(255, 255, 255, 0.1);
-  fill: #FFFFFF;
-}
-
-.about-icons > .studio-soc-link:hover {
-  background-color: #2196f3;
-  fill: #FFFFFF;
-}
-
-
-footer > .studio-soc-icons {
-  fill: #ffffff;
 }
 
 /* --- css style portfolio.html --- */
 
 /* --- КНОПКИ В ПОРТФОЛІО --- */
+
 .title-button {
   padding-top: 94px;
   padding-bottom: 94px;
