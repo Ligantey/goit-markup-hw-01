@@ -147,6 +147,7 @@ header {
 }
 
 /* --- AUTH-NAV --- */
+
 .auth-nav {
   display: flex;
   /* align-items: center; */
@@ -176,7 +177,9 @@ header {
 }
 
 .mail:hover,
-.envelope:hover {
+.mail:focus,
+.envelope:hover,
+.envelope:focus {
   color: #757575;
 }
 
@@ -505,7 +508,8 @@ header {
   border-radius: 50%;
   }
 
-.studio-soc-link:hover {
+.studio-soc-link:hover,
+.studio-soc-link:focus {
   background-color: #2196f3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
@@ -515,7 +519,8 @@ header {
     fill: #AFB1B8;
   }
 
-.studio-soc-icons:hover {
+.studio-soc-icons:hover,
+.studio-soc-icons:focus {
   fill: #FFFFFF;
   }
 
@@ -550,6 +555,7 @@ header {
 }
 
 .client-link {
+  /*  прописуємо у % щоб займало весь контейнер  */
   width: 100%;
   height: 100%;
 
@@ -562,12 +568,14 @@ header {
   fill: #AFB1B8;
 }
 
-.client-item:hover {
+.client-item:hover,
+.client-item:focus {
   border: 1px solid #2196f3;
 }
 
-.client-logo {
-  fill: #2196f3;
+.client-link:hover,
+.client-link:focus {
+  fill:#2196f3;
 }
 
 /* --- footer --- */
@@ -689,7 +697,8 @@ border-radius: 50%;
 background-color: rgba(255, 255, 255, 0.1);
 }
 
-.icons-link:hover {
+.icons-link:hover,
+.icons-link:focus {
 background-color: #2196f3;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -772,7 +781,8 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   margin-top: 30px;
 }
 
-.items:hover {
+.items:hover,
+.items:focus {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
