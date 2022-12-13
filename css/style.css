@@ -553,6 +553,7 @@ header {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   box-sizing: border-box;
+ 
 }
 
 .client-link {
@@ -560,11 +561,14 @@ header {
   width: 100%;
   height: 100%;
 
-
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   fill: #AFB1B8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
 }
 
 .client-item:hover,
@@ -574,7 +578,7 @@ header {
 
 .client-logo {
   fill: #AFB1B8;
-}
+  }
 
 .client-logo:hover,
 .client-logo:focus {
