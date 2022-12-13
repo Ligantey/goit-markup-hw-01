@@ -573,9 +573,13 @@ header {
   border: 1px solid #2196f3;
 }
 
-.client-link:hover,
-.client-link:focus {
-  fill:#2196f3;
+.client-logo {
+  fill: #AFB1B8;
+}
+
+.client-logo:hover,
+.client-logo:focus {
+  fill: #2196f3;
 }
 
 /* --- footer --- */
