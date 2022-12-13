@@ -149,8 +149,10 @@ header {
 /* --- AUTH-NAV --- */
 .auth-nav {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   margin-left: auto;
+  align-items: baseline;
+  justify-content: baseline;
 }
 
 .auth-nav > li:not(:last-child) {
@@ -160,13 +162,12 @@ header {
 .auth-nav-icon {
   display: inline-block;
   margin-right: 10px;
-  fill: #757575;
+  fill: #2196f3;
 
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   align-items: baseline;
-justify-content: baseline;
+  justify-content: baseline;
 }
 
 .mail {
@@ -174,20 +175,19 @@ justify-content: baseline;
   cursor: pointer;
 }
 
-.envelope {
-  background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  align-items: baseline;
-  justify-content: baseline;
-}
 .mail:hover,
 .envelope:hover {
   color: #757575;
 }
 
+.smartphone {
+  fill: #757575;
+}
+
 .phone {
   color: #757575;
 }
+
 
 /* --- main --- */
 
@@ -513,16 +513,12 @@ justify-content: baseline;
 .studio-soc-link:hover {
   background-color: #2196f3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+.studio-soc-icons:hover {
   fill: #FFFFFF;
 }
 
-.studio-soc-icons:hover {
-  fill: currentColor;
-}
-
-.studio-soc-icons:hover {
-  fill: currentColor;
-}
 /* --- ПОСТІЙНІ КЛІЄНТИ --- */
 .clients {
   margin-left: auto;
