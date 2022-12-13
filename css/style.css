@@ -502,32 +502,43 @@ header {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-
   border-radius: 50%;
   fill: #AFB1B8;
 }
 
-.studio-soc-link:hover {
+/*.studio-soc-link:hover {
   background-color: #2196f3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  }
+  }*/
 
-  .studio-soc-icons {
+.studio-soc-icons {
     fill: #AFB1B8;
   }
 
 .studio-soc-icons:hover .instagram {
   fill: #FFFFFF;
+  background-color: #2196f3;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 .studio-soc-icons:hover .twitter{
   fill: #FFFFFF;
+  background-color: #2196f3;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 .studio-soc-icons:hover .facebook{
   fill: #FFFFFF;
+  background-color: #2196f3;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 .studio-soc-icons:hover .linkedin{
   fill: #FFFFFF;
+  background-color: #2196f3;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 /* --- ПОСТІЙНІ КЛІЄНТИ --- */
 .clients {
   margin-left: auto;
@@ -685,7 +696,7 @@ footer > .container {
   margin-bottom: 20px;
 }
 
-.about-icons > .studio-soc-link {
+.about-icons > .studio-soc-items {
   background: rgba(255, 255, 255, 0.1);
 }
 
