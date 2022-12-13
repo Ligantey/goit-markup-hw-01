@@ -169,10 +169,8 @@ align-items: baseline;
 
 .auth-nav-icon {
   margin-right: 10px;
+  
   fill: #2196f3;
-
-  width: 100%;
-  height: 100%;
 
   background-size: cover;
   background-repeat: no-repeat;
