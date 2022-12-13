@@ -515,11 +515,19 @@ header {
   .studio-soc-icons {
     fill: #AFB1B8;
   }
-  
-.studio-soc-icons:hover {
+
+.studio-soc-icons:hover .instagram {
   fill: #FFFFFF;
 }
-
+.studio-soc-icons:hover .twitter{
+  fill: #FFFFFF;
+}
+.studio-soc-icons:hover .facebook{
+  fill: #FFFFFF;
+}
+.studio-soc-icons:hover .linkedin{
+  fill: #FFFFFF;
+}
 /* --- ПОСТІЙНІ КЛІЄНТИ --- */
 .clients {
   margin-left: auto;
