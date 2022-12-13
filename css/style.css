@@ -553,10 +553,6 @@ header {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   box-sizing: border-box;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .client-link {
@@ -582,11 +578,6 @@ header {
 
 .client-logo:hover,
 .client-logo:focus {
-  fill: #2196f3;
-}
-
-.client-link:hover,
-.client-link:focus {
   fill: #2196f3;
 }
 
