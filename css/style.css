@@ -578,7 +578,7 @@ header {
 
 .client-logo:hover,
 .client-logo:focus {
-  color: #2196f3;
+  fill: #2196f3;
 }
 
 /* --- footer --- */
