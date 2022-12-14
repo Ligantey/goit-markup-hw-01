@@ -172,8 +172,7 @@ svg:not(:root) {
 
 .auth-nav-icon {
   margin-right: 10px;
-  fill: #2196f3;
-
+ 
   background-size: cover;
   background-repeat: no-repeat;
 }
