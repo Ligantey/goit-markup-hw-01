@@ -152,7 +152,7 @@ header {
   display: flex;
   /* align-items: center; */
   margin-left: auto;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
 }
 
@@ -175,6 +175,8 @@ svg:not(:root) {
  
   background-size: cover;
   background-repeat: no-repeat;
+  align-items: baseline;
+  justify-content: baseline;
 }
 
 .mail {
