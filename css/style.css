@@ -169,16 +169,19 @@ align-items: baseline;
 .mail {
   color: #2196f3;
   cursor: pointer;
-}
+  display: flex;
+  align-items: center;
+  }
 
 .envelope {
   fill: #2196f3;
   margin-right: 10px;
+  cursor: pointer;
   }
 
 .envelope:hover,
 .envelope:focus {
-  color: #757575;
+  fill: #757575;
 }
 
 .mail:hover,
@@ -188,12 +191,16 @@ align-items: baseline;
 
 .smartphone {
   fill: #757575;
-   margin-right: 10px;
+  margin-right: 10px;
+  cursor: pointer;
 }
 
 .phone {
   color: #757575;
-}
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  }
 
 /* --- main --- */
 
@@ -555,7 +562,6 @@ align-items: baseline;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   box-sizing: border-box;
- 
 }
 
 .client-link {
@@ -686,10 +692,6 @@ footer > .container {
 }
 
 .icons-link {
-  /* прописуємо у % щоб займало весь контейнер */
-width: 100%;
-height: 100%;
-
 display: flex;
 justify-content: center;
 align-items: center;
@@ -698,13 +700,17 @@ background-repeat: no-repeat;
 background-position: center;
 border-radius: 50%;
 
+  /* прописуємо у % щоб займало весь контейнер */
+  width: 100%;
+  height: 100%;
+
 background-color: rgba(255, 255, 255, 0.1);
 }
 
 .icons-link:hover,
 .icons-link:focus {
-background-color: #2196f3;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: #2196f3;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .soc-icons {
@@ -721,13 +727,13 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .box-button {
-  margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
-
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
+
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-list {
@@ -763,15 +769,16 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .card-set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
   padding: 0;
   margin: 0;
   list-style: none;
   margin: auto;
   outline: 1px #eeeeee;
 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .items {
