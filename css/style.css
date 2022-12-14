@@ -150,10 +150,9 @@ header {
 
 .auth-nav {
   display: flex;
-  /* align-items: center; */
+
   margin-left: auto;
-  align-items: baseline;
-  justify-content: center;
+ 
 }
 
 .auth-nav > li:not(:last-child) {
@@ -162,7 +161,7 @@ header {
 
 .auth-nav-item {
 display: flex;
-justify-content: center;
+justify-content: baseline;
 align-items: baseline;
 }
 
@@ -175,9 +174,7 @@ svg:not(:root) {
  
   background-size: cover;
   background-repeat: no-repeat;
-  align-items: baseline;
-  justify-content: baseline;
-}
+ }
 
 .mail {
   color: #2196f3;
@@ -186,17 +183,23 @@ svg:not(:root) {
 
 .envelope {
   fill: #2196f3;
+  cursor: pointer;
 }
 
-.mail:hover,
-.mail:focus,
 .envelope:hover,
 .envelope:focus {
   color: #757575;
 }
 
+.mail:hover,
+.mail:focus {
+  color: #757575;
+}
+
 .smartphone {
   fill: #757575;
+  align-items: baseline;
+  justify-content: baseline;
 }
 
 .phone {
