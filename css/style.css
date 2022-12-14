@@ -162,14 +162,17 @@ header {
 
 .auth-nav-item {
 display: flex;
-justify-content: baseline;
-align-items: baseline;
+justify-content: center;
+align-items: center;
+}
 
+svg:not(:root) {
+  overflow: hidden;
 }
 
 .auth-nav-icon {
   margin-right: 10px;
-  
+
   fill: #2196f3;
 
   background-size: cover;
