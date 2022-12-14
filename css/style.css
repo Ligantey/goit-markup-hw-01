@@ -152,7 +152,7 @@ header {
   display: flex;
   margin-left: auto;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
 
 }
 
