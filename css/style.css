@@ -172,7 +172,6 @@ svg:not(:root) {
 
 .auth-nav-icon {
   margin-right: 10px;
-
   fill: #2196f3;
 
   background-size: cover;
@@ -198,7 +197,6 @@ svg:not(:root) {
 .phone {
   color: #757575;
 }
-
 
 /* --- main --- */
 
