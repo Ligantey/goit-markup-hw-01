@@ -4,6 +4,7 @@
   --pramyre-text-color: #FFFFFF;
   --title-text-color: #757575;
   --accent-color: #212121;
+  --hover-color: #2196F3;
   --moz-box-sizing: border-box;
   --main-font: Roboto, Raleway, 'Gill Sans', sans-serif;
 }
@@ -84,6 +85,7 @@ header {
 }
 
 /* --- LOGO --- */
+
 .logo-nav {
   margin-right: 93px;
   margin-top: 24px;
@@ -105,7 +107,7 @@ header {
 }
 
 .logo-web {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 
 .logo-studio {
@@ -120,7 +122,7 @@ header {
 }
 
 .site-nav a {
-  color: #212121;
+  color: var(--accent-color);
 }
 
 .site-nav > li {
@@ -134,7 +136,7 @@ header {
 .link:hover,
 .link:focus,
 .link.current {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 
 .link,
@@ -143,7 +145,7 @@ header {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--accent-color);
 }
 
 /* --- AUTH-NAV --- */
@@ -161,42 +163,38 @@ header {
 }
 
 .auth-nav-item {
-display: flex;
-justify-content: baseline;
-align-items: baseline;
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
 }
 
 .mail {
-  color: #2196f3;
+  color: var(--title-text-color);
   cursor: pointer;
   display: flex;
   align-items: center;
   }
 
 .envelope {
-  fill: #2196f3;
+  fill: var(--title-text-color);
   margin-right: 10px;
   cursor: pointer;
   }
 
-.envelope:hover,
-.envelope:focus {
-  fill: #757575;
-}
-
-.mail:hover,
-.mail:focus {
-  color: #757575;
+.mail-item:hover,
+.mail-item:focus {
+  color: var(--hover-color);
+  fill: var(--hover-color);
 }
 
 .smartphone {
-  fill: #757575;
+  fill: var(--title-text-color);
   margin-right: 10px;
   cursor: pointer;
 }
 
 .phone {
-  color: #757575;
+  color: var(--title-text-color);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -235,7 +233,7 @@ align-items: baseline;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--pramyre-text-color);
 
   margin-left: auto;
   margin-right: auto;
@@ -248,8 +246,8 @@ align-items: baseline;
   margin-left: auto;
   margin-right: auto;
 
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--hover-color);
+  color: var(--pramyre-text-color);
   border: 0;
   border-radius: 4px;
   display: flex;
@@ -338,7 +336,7 @@ align-items: baseline;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--accent-color);
   margin-bottom: 10px;
 }
 
@@ -366,7 +364,7 @@ align-items: baseline;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--accent-color);
   margin-bottom: 50px;
 }
 
@@ -403,7 +401,7 @@ align-items: baseline;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--accent-color);
 
   margin-bottom: 50px;
   margin-left: auto;
@@ -423,7 +421,7 @@ align-items: baseline;
 
 .worker {
   width: 270px;
-  background: #ffffff;
+  background: var(--pramyre-text-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -440,7 +438,7 @@ align-items: baseline;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--accent-color);
 }
 
 .team-text > img {
@@ -463,7 +461,7 @@ align-items: baseline;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--accent-color);
 
   margin-top: 30px;
   margin-bottom: 10px;
@@ -478,7 +476,7 @@ align-items: baseline;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--title-text-color);
   margin-bottom: 16px;
 }
 
@@ -520,7 +518,7 @@ align-items: baseline;
 
 .studio-soc-link:hover,
 .studio-soc-link:focus {
-  background-color: #2196f3;
+  background-color: var(--hover-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
   }
@@ -531,7 +529,7 @@ align-items: baseline;
 
 .studio-soc-icons:hover,
 .studio-soc-icons:focus {
-  fill: #FFFFFF;
+  fill: var(--pramyre-text-color);
   }
 
 /* --- ПОСТІЙНІ КЛІЄНТИ --- */
@@ -581,7 +579,7 @@ align-items: baseline;
 
 .client-item:hover,
 .client-item:focus {
-  border: 1px solid #2196f3;
+  border: 1px solid var(--hover-color);
 }
 
 .client-logo {
@@ -590,7 +588,7 @@ align-items: baseline;
 
 .client-logo:hover,
 .client-logo:focus {
-  fill: #2196f3;
+  fill: var(--hover-color);
 }
 
 /* --- footer --- */
@@ -622,19 +620,20 @@ footer > .container {
 }
 
 .logo-footer {
+  display: inline-flex;
+
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
 
-  display: inline-flex;
+  color: var(--hover-color);
 }
 
 .logo-item {
-  color: #ffffff;
+  color: var(--pramyre-text-color);
 }
 
 .about-company {
@@ -642,44 +641,51 @@ footer > .container {
 }
 
 .address-company {
+  display: block;
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
-  display: block;
+
+  color: var(--pramyre-text-color);
 }
 
 .mail-company {
+  display: block;
+  margin-top: 9px;
+  margin-bottom: 9px;
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 
-  margin-top: 9px;
-  margin-bottom: 9px;
-  display: block;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .phone-company {
+  display: block;
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: rgba(255, 255, 255, 0.6);
-  display: block;
 }
 
 /* --- FOOTER soc-link --- */
 
 .text-items {
+  margin-bottom: 20px;
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -687,34 +693,34 @@ footer > .container {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
-  margin-bottom: 20px;
+
+  color: var(--pramyre-text-color);
 }
 
 .icons-link {
-display: flex;
-justify-content: center;
-align-items: center;
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
 
   /* прописуємо у % щоб займало весь контейнер */
   width: 100%;
   height: 100%;
 
-background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .icons-link:hover,
 .icons-link:focus {
-  background-color: #2196f3;
+  background-color: var(--hover-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .soc-icons {
-  fill: #FFFFFF;
+  fill: var(--pramyre-text-color);
 }
 
 /* --- css style portfolio.html --- */
@@ -745,7 +751,7 @@ background-color: rgba(255, 255, 255, 0.1);
   line-height: 1.63px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--accent-color);
 
   border-radius: 4px;
   border-style: solid;
@@ -761,8 +767,8 @@ background-color: rgba(255, 255, 255, 0.1);
 
 .button-list:hover,
 .button-list:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--hover-color);
+  color: var(--pramyre-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -772,7 +778,7 @@ background-color: rgba(255, 255, 255, 0.1);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
+
   padding: 0;
   margin: 0;
   list-style: none;
@@ -794,7 +800,7 @@ background-color: rgba(255, 255, 255, 0.1);
 
 .items:hover,
 .items:focus {
-  background: #ffffff;
+  background: var(--pramyre-text-color);
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -823,7 +829,7 @@ background-color: rgba(255, 255, 255, 0.1);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--accent-color);
 
   margin-top: 20px;
   margin-right: 24px;
@@ -835,7 +841,8 @@ background-color: rgba(255, 255, 255, 0.1);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--title-text-color);
+  
   margin-right: 24px;
   margin-bottom: 20px;
   margin-left: 24px;
