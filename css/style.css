@@ -184,10 +184,14 @@ svg:not(:root) {
   cursor: pointer;
 }
 
+.envelope {
+  fill: #2196f3;
+}
+
 .mail:hover,
 .mail:focus,
-.auth-nav-icon.envelope:hover,
-.auth-nav-icon.envelope:focus {
+.envelope:hover,
+.envelope:focus {
   color: #757575;
 }
 
