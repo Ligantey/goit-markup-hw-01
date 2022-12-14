@@ -163,7 +163,7 @@ header {
 .auth-nav-item {
 display: flex;
 justify-content: center;
-align-items: center;
+align-items: baseline;
 }
 
 svg:not(:root) {
@@ -185,8 +185,8 @@ svg:not(:root) {
 
 .mail:hover,
 .mail:focus,
-.envelope:hover,
-.envelope:focus {
+.auth-nav-icon.envelope:hover,
+.auth-nav-icon.envelope:focus {
   color: #757575;
 }
 
