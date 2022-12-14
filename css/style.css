@@ -150,9 +150,10 @@ header {
 
 .auth-nav {
   display: flex;
-
   margin-left: auto;
- 
+  justify-content: center;
+  align-items: center;
+
 }
 
 .auth-nav > li:not(:last-child) {
@@ -165,11 +166,6 @@ justify-content: baseline;
 align-items: baseline;
 }
 
-.auth-nav-icon {
-  margin-right: 10px;
-  fill: #757575;
- }
-
 .mail {
   color: #2196f3;
   cursor: pointer;
@@ -177,8 +173,8 @@ align-items: baseline;
 
 .envelope {
   fill: #2196f3;
-  cursor: pointer;
-}
+  margin-right: 10px;
+  }
 
 .envelope:hover,
 .envelope:focus {
@@ -192,8 +188,7 @@ align-items: baseline;
 
 .smartphone {
   fill: #757575;
-  align-items: baseline;
-  justify-content: baseline;
+   margin-right: 10px;
 }
 
 .phone {
