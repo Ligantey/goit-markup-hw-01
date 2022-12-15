@@ -168,13 +168,15 @@ header {
   align-items: baseline;
 }
 
+.mail {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
 .mail-item {
   fill: var(--title-text-color);
   color: var(--title-text-color);
-  cursor: pointer;
-  margin-right: 10px;
-  cursor: pointer;
-  }
+}
 
 .mail-item:hover,
 .mail-item:focus {
