@@ -137,6 +137,24 @@ header {
 .link:focus,
 .link.current {
   color: var(--hover-color);
+  border-radius: 2px;
+}
+
+.current::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  margin-top: 28px;
+
+  /*width: 48px;*/
+  
+  bottom: 0;
+  left: 0;
+  background: #2196F3;
+  border-radius: 2px;
+
 }
 
 .link,
@@ -372,6 +390,37 @@ header {
 .subject-img:not(:last-child) {
   margin-right: 30px;
 }
+
+.subject-item {
+  position: relative;
+}
+
+.subject-link {
+  position: absolute;
+ 
+  width: 100%;
+  left: 0;
+  bottom: 0;
+ 
+  background: rgba(47, 48, 58, 0.8);
+
+  margin: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: var(--pramyre-text-color);
+  }
+
 
 /* --- НАША КОМАНДА --- */
 
@@ -762,7 +811,8 @@ footer > .container {
 }
 
 .items {
-  width: 370px;
+  position: relative;
+   width: 370px;
 
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
@@ -820,4 +870,49 @@ footer > .container {
   margin-right: 24px;
   margin-bottom: 20px;
   margin-left: 24px;
+}
+
+
+/* --- ПОРТФОЛІО ВИПАДАЮЧЕ ВІКНО --- */
+
+.subcard {
+/* --- tag <ul> --- */
+position: absolute;
+left: 0;
+bottom: 110px;
+width: 100%;
+
+padding: 0;
+margin: 0;
+list-style: none;
+display: none;
+
+background-color: rgba(33, 150, 243, 0.9);
+}
+
+
+.subcard-item {
+  /* --- tag <li> --- */
+padding: 63px 24px;
+}
+
+.subcard-link {
+/* --- tag <a> --- */
+display: block;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.56;
+letter-spacing: 0.03em;
+text-decoration: none;
+color: #FFFFFF;
+}
+
+.subcard a {
+  text-decoration: none;
+}
+
+.items:hover .subcard {
+display: block;
 }
