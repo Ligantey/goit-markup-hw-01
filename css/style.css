@@ -171,8 +171,6 @@ header {
 .mail {
   color: var(--title-text-color);
   cursor: pointer;
-  display: flex;
-  align-items: center;
   }
 
 .envelope {
@@ -514,32 +512,19 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
+  fill: #AFB1B8;
   }
 
 .studio-soc-link:hover,
 .studio-soc-link:focus {
   background-color: var(--hover-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-  }
-
-.studio-soc-icons {
-    fill: #AFB1B8;
-  }
-
-.studio-soc-icons:hover,
-.studio-soc-icons:focus {
-  fill: var(--pramyre-text-color);
+  fill: var(--hover-color);
   }
 
 /* --- ПОСТІЙНІ КЛІЄНТИ --- */
 
 .clients {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.clients > .container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -563,6 +548,9 @@ header {
 }
 
 .client-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /*  прописуємо у % щоб займало весь контейнер  */
   width: 100%;
   height: 100%;
@@ -571,23 +559,11 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   fill: #AFB1B8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
 }
 
-.client-item:hover,
-.client-item:focus {
+.client-link:hover,
+.client-link:focus {
   border: 1px solid var(--hover-color);
-}
-
-.client-logo {
-  fill: #AFB1B8;
-  }
-
-.client-logo:hover,
-.client-logo:focus {
   fill: var(--hover-color);
 }
 
@@ -842,7 +818,7 @@ footer > .container {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  
+
   margin-right: 24px;
   margin-bottom: 20px;
   margin-left: 24px;
