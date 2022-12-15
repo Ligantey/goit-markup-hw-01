@@ -179,8 +179,8 @@ header {
   cursor: pointer;
   }
 
-.mail-item:hover,
-.mail-item:focus {
+.auth-nav-item:hover,
+.auth-nav-item:focus {
   color: var(--hover-color);
   fill: var(--hover-color);
 }
@@ -519,7 +519,7 @@ header {
 .studio-soc-items:focus {
   background-color: var(--hover-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  fill: var(--hover-color);
+  fill: var(--pramyre-text-color);
   }
 
 /* --- ПОСТІЙНІ КЛІЄНТИ --- */
