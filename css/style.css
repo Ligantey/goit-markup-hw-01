@@ -561,9 +561,10 @@ header {
   fill: #AFB1B8;
 }
 
-.client-link:hover,
-.client-link:focus {
+.client-item:hover,
+.client-item:focus {
   border: 1px solid var(--hover-color);
+  border-radius: 4px;
   fill: var(--hover-color);
 }
 
@@ -578,6 +579,10 @@ footer {
 }
 
 footer > .container {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+
   margin-left: auto;
   margin-right: auto;
 
@@ -585,10 +590,6 @@ footer > .container {
   padding-right: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
-
-  display: flex;
-  justify-content: baseline;
-  align-items: baseline;
 }
 
 .about-company {
