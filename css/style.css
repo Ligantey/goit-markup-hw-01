@@ -173,7 +173,7 @@ header {
   cursor: pointer;
   }
 
-.envelope {
+.mail-item {
   fill: var(--title-text-color);
   margin-right: 10px;
   cursor: pointer;
@@ -542,8 +542,6 @@ header {
 .client-item {
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
   box-sizing: border-box;
 }
 
@@ -559,6 +557,8 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   fill: #AFB1B8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .client-link:hover,
